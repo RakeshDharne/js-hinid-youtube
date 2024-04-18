@@ -15,6 +15,7 @@ console.log(null>=0)//true
  
 // teh reason is that an equality check == and comparisions > < >= <= works differently
 // thats why null >=0 is true and null >0 si false
+//because it convert null =0
 // the above must not use
 
 

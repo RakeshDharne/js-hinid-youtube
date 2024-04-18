@@ -20,7 +20,7 @@ const anotherId= Symbol('123')
 const bigNumber=252462626356256262n;
 
 
- // Reference (non primitive) reference
+// Reference (non primitive) reference
 
 //Array, Objects, Functtions,
 
@@ -44,3 +44,34 @@ const myFunction =function(){
 
 //ecma-international.org for study read typeof Operator
 
+
+
+//***********************************88 */
+// Stack  (primitive) and Heap (reference)
+
+
+
+let myYoutubename ="hiteshchoudharydot.com"
+
+let anothername= myYoutubename
+
+anothername="chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername)
+
+let userOne={
+
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo= userOne
+
+userTwo.email ="hitesh@google.com"
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+ 

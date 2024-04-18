@@ -6,6 +6,7 @@ let score ="33abc"
 //score = true hai to 1 nahi to 0
 
 
+//dono tarike se likh sakte hai
 console.log(typeof score);
 console.log(typeof(score));
  
@@ -15,7 +16,8 @@ let valueInNumber =Number (score)
 
 console.log(typeof(valueInNumber))
 console.log(valueInNumber);
-//agar output number hai to thik hai nahi to output me NaN aaya hai isliye check karte ahi
+//agar output number hai to thik hai nahi to output me NaN aaya hai isliye check karte rehna hai
+
 
 //"33" => 33
 //"33abc" =>NaN
@@ -87,5 +89,5 @@ console.log(gameCounter);
 // link to study 
 
 //https:tc39.es/ecma262/multipage/abstract-operations.
-// html#sec-type-conversion
+//  html#sec-type-conversion
   

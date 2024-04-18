@@ -7,7 +7,7 @@
 console.log(3+3)
 console.log("Rakesh")
 
-//code readability shold high
+//code readability should high
 //documentation 
 //MDN, tc39
 
